@@ -41,8 +41,9 @@ The lab environment consists of:
 ## Step 1 – Windows 11 Target VM Setup
 
 - Windows 11  installed as a virtual machine in VirtualBox
-- Memory allocated: 8 GB
-- Disk size: 60 GB
+- Memory allocated: 4 GB
+- CPU: 2 cores
+- Disk size: 30 GB
 - Network: Host-Only for isolated lab testing
 - Purpose: Target VM for attack simulation and log collection
 
