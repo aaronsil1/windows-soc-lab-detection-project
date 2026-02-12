@@ -1,0 +1,20 @@
+                  ┌────────────────────┐
+                  │   Kali Linux VM    │
+                  │   (Attacker)       │
+                  └─────────┬──────────┘
+                            │ Attack Traffic
+                            │
+                            ▼
+                  ┌────────────────────┐
+                  │ Windows 10 VM      │
+                  │ (Target / Log Source) │
+                  │ - Sysmon Installed │
+                  │ - Splunk Installed│
+                  └─────────┬──────────┘
+                            │ Logs Forwarded
+                            ▼
+                  ┌────────────────────┐
+                  │ Splunk SIEM / Dashboards │
+                  │ - Custom Alerts          │
+                  │ - MITRE ATT&CK Mapping   │
+                  └────────────────────┘
