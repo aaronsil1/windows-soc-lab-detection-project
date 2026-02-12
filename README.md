@@ -38,4 +38,11 @@ The lab environment consists of:
                   │ - Custom Alerts          │
                   │ - MITRE ATT&CK Mapping   │
                   └────────────────────┘
+## Step 1 – Windows 11 Target VM Setup
+
+- Windows 11  installed as a virtual machine in VirtualBox
+- Memory allocated: 8 GB
+- Disk size: 60 GB
+- Network: Host-Only for isolated lab testing
+- Purpose: Target VM for attack simulation and log collection
 
